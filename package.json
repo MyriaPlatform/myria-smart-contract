@@ -1,0 +1,38 @@
+{
+  "name": "my-nft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy-erc721": "node scripts/deploy_erc721.js",
+    "deploy-erc20": "node scripts/deploy_erc20.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.6",
+    "ethers": "^5.6.7",
+    "hardhat": "^2.9.6"
+  },
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.4.2",
+    "@openzeppelin/contracts": "^4.6.0",
+    "@starkware-industries/starkex-js": "^0.0.6",
+    "assert": "^2.0.0",
+    "bn.js": "^5.2.0",
+    "brorand": "^1.0.1",
+    "chai": "^4.3.6",
+    "dotenv": "^16.0.1",
+    "elliptic": "^6.5.4",
+    "enc-utils": "^3.0.0",
+    "hash.js": "^1.0.0",
+    "hmac-drbg": "^1.0.0",
+    "inherits": "^2.0.1",
+    "js-sha3": "^0.8.0",
+    "minimalistic-assert": "^1.0.0",
+    "minimalistic-crypto-utils": "^1.0.0",
+    "web3": "^1.7.3"
+  }
+}

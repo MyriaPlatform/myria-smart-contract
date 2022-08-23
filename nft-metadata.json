@@ -1,0 +1,15 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Rank",
+      "value": "Commander"
+    },
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    }
+  ],
+  "description": "The first chicken commander in the earth.",
+  "image": "ipfs://QmNvdWtcrMPEzRRHGniZTFiX1A5271mvXYupWNgWEkTwL5",
+  "name": "Chicken Commander"
+}
