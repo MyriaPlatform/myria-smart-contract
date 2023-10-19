@@ -27,7 +27,8 @@ STARKEX_ADDRESS=    <StarkEx Myria contract>
 ```
 
 `STARKEX_ADDRESS` should have one of the following values:
-- Goerli Testnet (staging): `0xF82C423a30E317f34f9b0997627F2F9c5d239Ad9`
+- Goerli Testnet (staging): `0xF82C423a30E317f34f9b0997627F2F9c5d239Ad9` (Be deprecated soon)
+- Sepolia Testnet (staging): `0xe99aFF31AD367Dcc45c60b237a2Ef096507d6095` (Recommended)
 - Ethereum Mainnet (production): `0x3071BE11F9e92A9eb28F305e1Fa033cD102714e7`
 
 ## Running the app
