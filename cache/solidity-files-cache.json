@@ -1,0 +1,896 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Volumes/Data/Project/Myria/source-code/github/myria-smart-contract/contracts/ERC20/IMintableERC20.sol": {
+      "lastModificationDate": 1757048768211,
+      "contentHash": "2bca06c3698d0e9077ce75430f84f404",
+      "sourceName": "contracts/ERC20/IMintableERC20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IMintableERC20"
+      ]
+    },
+    "/Volumes/Data/Project/Myria/source-code/github/myria-smart-contract/contracts/ERC20/MintableERC20.sol": {
+      "lastModificationDate": 1757049248742,
+      "contentHash": "dc2376ee2d7564572a2f53975941d51e",
+      "sourceName": "contracts/ERC20/MintableERC20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "../../@openzeppelin/contracts/access/Ownable.sol",
+        "./IMintableERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "MintableERC20"
+      ]
+    },
+    "/Volumes/Data/Project/Myria/source-code/github/myria-smart-contract/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1757050002571,
+      "contentHash": "50aa6b1555a86b09d6431b052af136f5",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Volumes/Data/Project/Myria/source-code/github/myria-smart-contract/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1757049985550,
+      "contentHash": "b3c94c72c9ab442523260c7abc11109c",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./extensions/IERC20Metadata.sol",
+        "../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Volumes/Data/Project/Myria/source-code/github/myria-smart-contract/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1757045354759,
+      "contentHash": "633292281184a55ded4dbc6241374b64",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/Volumes/Data/Project/Myria/source-code/github/myria-smart-contract/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1757049988196,
+      "contentHash": "f629943350c45d77ec788f6e7473b566",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Volumes/Data/Project/Myria/source-code/github/myria-smart-contract/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+      "lastModificationDate": 1757049992448,
+      "contentHash": "0aebb48a9053d0990a356b03fe8483cc",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "/Volumes/Data/Project/Myria/source-code/github/myria-smart-contract/contracts/MyriaContractMintableERC20.sol": {
+      "lastModificationDate": 1757049017227,
+      "contentHash": "933ff6f3799c87e9a1bf424c06622426",
+      "sourceName": "contracts/MyriaContractMintableERC20.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../@openzeppelin/contracts/token/ERC20/ERC20.sol",
+        "./ERC20/MintableERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "MyriaContractMintableERC20"
+      ]
+    },
+    "/Volumes/Data/Project/Myria/source-code/github/myria-smart-contract/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
+      "lastModificationDate": 1757049967899,
+      "contentHash": "ef090879f79cd98fcdf14bc42ce96b43",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/Context.sol",
+        "./IERC721.sol",
+        "./IERC721Receiver.sol",
+        "./extensions/IERC721Metadata.sol",
+        "../../utils/Address.sol",
+        "../../utils/Strings.sol",
+        "../../utils/introspection/ERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ERC721"
+      ]
+    },
+    "/Volumes/Data/Project/Myria/source-code/github/myria-smart-contract/@openzeppelin/contracts/utils/Address.sol": {
+      "lastModificationDate": 1757045354758,
+      "contentHash": "1437a7c9dc1ef261f7841181aae83d76",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "/Volumes/Data/Project/Myria/source-code/github/myria-smart-contract/@openzeppelin/contracts/utils/Strings.sol": {
+      "lastModificationDate": 1757049952477,
+      "contentHash": "ef4e238cfa7fa0f327c5e2ac396ae974",
+      "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Strings"
+      ]
+    },
+    "/Volumes/Data/Project/Myria/source-code/github/myria-smart-contract/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
+      "lastModificationDate": 1757049959108,
+      "contentHash": "dcde2fb851bac1d8b12015afc4df9620",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
+    },
+    "/Volumes/Data/Project/Myria/source-code/github/myria-smart-contract/@openzeppelin/contracts/token/ERC721/IERC721.sol": {
+      "lastModificationDate": 1757049970307,
+      "contentHash": "3f61e8b27f20608bfc4602573b404305",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC721"
+      ]
+    },
+    "/Volumes/Data/Project/Myria/source-code/github/myria-smart-contract/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol": {
+      "lastModificationDate": 1757049972509,
+      "contentHash": "f2686c26b50a5732ebf9ef449fd2bf00",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC721Receiver"
+      ]
+    },
+    "/Volumes/Data/Project/Myria/source-code/github/myria-smart-contract/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol": {
+      "lastModificationDate": 1757049980608,
+      "contentHash": "9dced9cea3db9c14defe0852517b6c11",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC721.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC721Metadata"
+      ]
+    },
+    "/Volumes/Data/Project/Myria/source-code/github/myria-smart-contract/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
+      "lastModificationDate": 1757049945454,
+      "contentHash": "3b0d8f24064027aaea58d1646e0b1243",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "/Volumes/Data/Project/Myria/source-code/github/myria-smart-contract/contracts/ERC721/MintableERC721.sol": {
+      "lastModificationDate": 1757049225335,
+      "contentHash": "4535863a7ae99606835602c1327f5c55",
+      "sourceName": "contracts/ERC721/MintableERC721.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../@openzeppelin/contracts/token/ERC721/ERC721.sol",
+        "../../@openzeppelin/contracts/access/Ownable.sol",
+        "./IMintableERC721.sol",
+        "../utils/Minting.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "MintableERC721"
+      ]
+    },
+    "/Volumes/Data/Project/Myria/source-code/github/myria-smart-contract/contracts/utils/Minting.sol": {
+      "lastModificationDate": 1757049928582,
+      "contentHash": "e6e5d9e9088a7534e7072dae4dd6346b",
+      "sourceName": "contracts/utils/Minting.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Bytes.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Minting"
+      ]
+    },
+    "/Volumes/Data/Project/Myria/source-code/github/myria-smart-contract/contracts/ERC721/IMintableERC721.sol": {
+      "lastModificationDate": 1757049921113,
+      "contentHash": "6417a57271bc4f4d8c5c721f48da3d55",
+      "sourceName": "contracts/ERC721/IMintableERC721.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IMintableERC721"
+      ]
+    },
+    "/Volumes/Data/Project/Myria/source-code/github/myria-smart-contract/contracts/utils/Bytes.sol": {
+      "lastModificationDate": 1757049932664,
+      "contentHash": "60b95d662333152f0747bf8842c719c5",
+      "sourceName": "contracts/utils/Bytes.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Bytes"
+      ]
+    },
+    "/Volumes/Data/Project/Myria/source-code/github/myria-smart-contract/contracts/MyriaContractMintableERC721.sol": {
+      "lastModificationDate": 1757050071248,
+      "contentHash": "f209df3f97332be7cc1f08a8ee4c6aee",
+      "sourceName": "contracts/MyriaContractMintableERC721.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC721/MintableERC721.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "MyriaContractMintableERC721"
+      ]
+    },
+    "/Volumes/Data/Project/Myria/source-code/github/myria-smart-contract/contracts/registration/Myria.sol": {
+      "lastModificationDate": 1757044379331,
+      "contentHash": "f83d6d2ee03d305e07ac5f65696474c4",
+      "sourceName": "contracts/registration/Myria.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.1"
+      ],
+      "artifacts": [
+        "Myria"
+      ]
+    },
+    "/Volumes/Data/Project/Myria/source-code/github/myria-smart-contract/contracts/registration/Registration.sol": {
+      "lastModificationDate": 1757049913600,
+      "contentHash": "84433ea2a7a1d951422532f237938def",
+      "sourceName": "contracts/registration/Registration.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "viaIR": true,
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Myria.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Registration"
+      ]
+    }
+  }
+}
